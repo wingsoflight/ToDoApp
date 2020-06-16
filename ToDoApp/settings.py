@@ -143,6 +143,14 @@ CELERY_TASK_SERIALIZER = 'json'
 EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
 EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_emails")
 
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.mailtrap.io'
+# EMAIL_PORT = '2525'
+# EMAIL_HOST_USER = '94d67543559be6'
+# EMAIL_HOST_PASSWORD = '6bc79c95cf4c1e'
+# EMAIL_USE_TLS = False
+# EMAIL_USE_SSL = False
+
 LOGIN_URL = reverse_lazy('login')
 LOGIN_REDIRECT_URL = '/api/'
 LOGOUT_URL = '/accounts/logout/'
