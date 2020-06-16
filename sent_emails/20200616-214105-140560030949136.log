@@ -1,0 +1,11 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Task status changed
+From: sender@example.com
+To: receiver@example.com
+Date: Tue, 16 Jun 2020 21:41:05 -0000
+Message-ID: <159234366528.6233.3824537159740946012@Computer.localdomain>
+
+Task 1 has been marked as uncompleted
+-------------------------------------------------------------------------------
