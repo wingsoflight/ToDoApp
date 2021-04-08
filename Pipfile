@@ -32,7 +32,7 @@ virtualenv-clone = "==0.5.4"
 zipp = "==3.1.0"
 "zope.event" = "==4.4"
 "zope.interface" = "==5.1.0"
-Django = "==3.0.7"
+Django = "==3.0.14"
 
 [requires]
 python_version = "3.8"
